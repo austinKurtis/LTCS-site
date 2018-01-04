@@ -8,6 +8,7 @@ a, a:hover, a:visited {
     font-style: normal;
     font-weight: 500; 
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .navcolor {
@@ -30,7 +31,7 @@ a, a:hover, a:visited {
     padding: 0;
     width: 6%;
     position: absolute;
-    top: 42px;
+    top: 30px;
 }
 .navPhone {
     font-size: 3em;
@@ -49,11 +50,20 @@ a, a:hover, a:visited {
     text-align: center;
 }
 .introName {
+    font-size: 4em;
     line-height: .8em;
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+.introSlogan {
+    font-size: 2.4em;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
 .dropdown-menu {
     position: absolute;
