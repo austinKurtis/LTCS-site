@@ -1,15 +1,25 @@
 body {
-    
 }
 
-a, a:visited {
+a, a:hover, a:visited {
     color: white;
+    text-decoration: none;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    text-transform: uppercase;
 }
 
 .navcolor {
     background-color: #4389d9;
     color: white;
     height: 100px;
+    padding: 0 115px;
+}
+.navBtns {
+    text-align: center;
+    /* vertical-align: middle; */
+    padding: 0 20px;
 }
 .navLogoContainer {
     margin: 0 15px;
@@ -22,6 +32,12 @@ a, a:visited {
     position: absolute;
     top: 42px;
 }
+.navPhone {
+    font-size: 3em;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0 35px;
+}
 .intro {
     height: 660px;
 }
@@ -32,7 +48,13 @@ a, a:visited {
     color: #4389d9;
     text-align: center;
 }
-
+.introName {
+    line-height: .8em;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -119,4 +141,21 @@ a, a:visited {
     padding-left: 5px;
     padding-top: 2px;
     line-height: 1.1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    color: #fff;
+    background-color: #4389d9;
+}
+
+.footNav {
+    padding: 15px 0;
+    /* justify-content: center; */
+}
+
+.footAddress {
+    padding: 15px 0;
+    justify-content: center;
 }
