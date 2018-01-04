@@ -1,0 +1,96 @@
+body {
+    
+}
+
+a, a:visited {
+    color: white;
+}
+
+.navcolor {
+    background-color: #4389d9;
+    color: white;
+    height: 100px;
+}
+
+.navlogo {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.intro {
+    height: 660px;
+}
+
+.introTextBox {
+    width: 100%;
+    justify-content: center;
+    color: #4389d9;
+    text-align: center;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    list-style: none;
+    background-color: #3b79bf;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.specialty {
+    height: 800px;
+}
+
+.signImage {
+    margin-right: -290px;
+    margin-top: 131px;
+    z-index: 1;
+}
+.bluetri {
+    width: 0;
+    height: 0;
+    border-top: 770px solid #4389d9;
+    border-left: 220px solid transparent;
+}
+
+.bluesquare {
+    height: 770px;
+    width: 900px;
+    background-color: #4389d9;
+    color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.homeAdv {
+    background-image: url(../images/HomeAdvanced.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.advDark {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.6);
+    padding-top: 50px;
+}
+
+.homeAdvTxt {
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin-top: 5%;
+}
